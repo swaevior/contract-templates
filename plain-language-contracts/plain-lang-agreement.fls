@@ -1,4 +1,4 @@
-PWD /Volumes/sangha/ludurel/contracts
+PWD /Volumes/sangha/github/swaevior/contract-templates/plain-language-contracts
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -72,10 +72,10 @@ INPUT plain-lang-agreement.out
 INPUT plain-lang-agreement.out
 INPUT plain-lang-agreement.out
 INPUT plain-lang-agreement.out
-OUTPUT plain-lang-agreement.pdf
 INPUT ./plain-lang-agreement.out
 INPUT ./plain-lang-agreement.out
 OUTPUT plain-lang-agreement.out
+OUTPUT plain-lang-agreement.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
@@ -89,7 +89,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT plain-lang-agreement.aux
 INPUT ./plain-lang-agreement.out
 INPUT ./plain-lang-agreement.out
