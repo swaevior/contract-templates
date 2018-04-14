@@ -2,45 +2,43 @@
 %	DYNAMIC CONTRACT INFORMATION
 %-------------------------------------------------------------
 
-%LUDUREL INFORMATION
+%SERVICE PROVIDER INFORMATION
 % Personnel names, titles, and company name
-\newcommand{\linguist}{} %chief linguist of \companyname
-\newcommand{\developer}{} %chief developer of \companyname
-\newcommand{\ludu}{Ludurel} %name of company or individual generating agreement
-\newcommand{\preparer}{sb swae} %name of person who prepared agreement
-\newcommand{\signatory}{[Ludurel person who signs]} %person within \ludu that will be signing this agreement
+\newcommand{\principalone}{} %first operator of \companyname
+\newcommand{\principaltwo}{} %second operator of \companyname
+\newcommand{\companyname}{[name of your oranization]} %name of company or individual generating agreement
+\newcommand{\preparer}{[person who prepared the document]} %name of person who prepared agreement
+\newcommand{\signatory}{[person who signs]} %person within \ludu that will be signing this agreement
 %-------------------------------------------------------
 % LUDUREL CONTACT INFO
 %-------------------------------------------------------
 
 %ADDRESS
-\newcommand{\luduaddress}{[street and house number of company]}
+\newcommand{\companyaddress}{[full address of your company]}
 \newcommand{\companycity}{[city of company]}
-\newcommand{\ludustate}{[state of company]}
+\newcommand{\companystate}{[state of company]}
 \newcommand{\companyZIP}{[ZIP code of company]}
 \newcommand{\companycountry}{[The United States of America]}
 \newcommand{\companyphone}{[phone number of company]}
 
 %EMAILS
-\newcommand{\companyemail}{\href{mailto:}{}
-
-
+\newcommand{\companyemail}{primary email address of company}
+\newcommand{\principaloneemail}{[email of first principal]}
+\newcommand{\principaltwoemail}{[email of second principal]}
 
 %WEBSITE
-\newcommand{\companywebsite}{\url{https://ludurel.io}}}
-\newcommand{\companyGithub}{\url{https://github.com/ludurel}}
-
-
+\newcommand{\companywebsite}{[company website]}
+\newcommand{\companyGithub}{[company github URL]}
 %-------------------------------------------------------
 % CLIENT INFORMATION
 %-------------------------------------------------------
 
-% COUNTERPARTY NAME
+% CLIENT NAME
 \newcommand{\clientbusinessname}{[Client's Business Name]} %incorporated  business name of client
-\newcommand{\clientname}{Point of Contact}  %Name of individual at Client that we will be dealing with
+\newcommand{\clientname}{[Point of Contact]}  %Name of individual at Client that we will be dealing with
 
 % Counter Party's Contact Information
-\newcommand{\clientaddress}{[Counter Party Address]}
+\newcommand{\clientaddress}{[Full client address]}
 \newcommand{\counterpartycity}{[Counter Party city]}
 \newcommand{\counterpartystate}{[counter party state]}
 \newcommand{\counterpartyZIP}{[counter party zip code]}
@@ -54,7 +52,6 @@
 \newcommand{\contracttitle}{[Title of Contract]}
 \newcommand{\effectivedate}{[date]}
 \newcommand{\terminationdate}{[date]}
-
 
 %-----------------------------------------------------------
 %	TITLE PAGE FORMATTING
@@ -73,7 +70,7 @@
 
 \small{with}
 
-{\LARGE\textbf{\counterpartyname}}\\
+{\LARGE\textbf{\clientname}}\\
 
 \vspace{5ex}
 Prepared: \today\\
@@ -85,13 +82,9 @@ Prepared: \today\\
 
 \companyaddress
 
-\companycity, \companystate \companyZIP
-
-\companycountry
-
 \companyphone
 
-\swaevioremail
+\companyemail
 
 \companywebsite
 
@@ -119,6 +112,29 @@ On behalf of \clientbusinessname, \clientname wishes to engage \ludu for develop
 Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and entered by and between Us and You with the intention of being legally bound by the contents of this Agreement. Collectively, We and You may be each individually and collectively called \textbf{``Parties''} in this contract.
 }
 
+%----------------------------------------------------------------------------------------
+%	DELIVERABLES SECTION
+%----------------------------------------------------------------------------------------
+\newcommand{\deliverables}{
+\section{Deliverables}
+
+\ludu agrees to deliver to the You a website consisting of the following components:
+
+Home Page\\
+Menu Page\\
+Store Locater \& Info Page\\
+FAQs Page\\
+
+Per your specifications, We also agree to provide you with the following services:
+
+Copywriting\\
+Comprehensive Editing\\
+Permissions Collection and Management\\
+Research\\
+\latex Document Typesetting and Layout
+
+You have supplied more detailed specifications to us in writing via email. You are welcome to make any changes to the specifications for deliverables provided that You also approve any changes We may need to make to our estimate and/or retainer. Any work outside of the scope of the website (including limimted maintenance) and the services mentioned above will be subject to a separate contract.
+}
 
 %-------------------------------------------------------------
 %	CONFIDENTIAL INFORMATION SECTION
@@ -168,67 +184,49 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 %-------------------------------------------------------------
 \newcommand{\securityobligations}{
     \section{Security Obligations}
-    \clientbusinessname shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of \companyname. \clientbusinessname shall carefully restrict access to Confidential Information and PII to employees, contractors, and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. \clientbusinessname shall not, without prior written approval of \companyname, use for \clientbusinessname's own benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of \companyname, any Confidential Information or PII. \clientbusinessname shall return to \companyname any and all records, notes, passwords, and other written, printed, or tangible materials in its possession pertaining to Confidential Information and PII immediately if \companyname so requests in writing.
+    We agree to hold and maintain Confidential Information in the strictest confidence for the benefit of You. You agree to do the same for the benefit of Us. We shall carefully restrict access to Confidential Information and PII to Our employees, contractors, and third parties as may reasonably be required on a need-to-know basis and We will require those people to agree to non disclosure restrictions at least as protective as those in this Agreement.
 }
-%--------------------------------------------------------
-%	ALLOWABLE DISCLOSURE SECTION
-%--------------------------------------------------------
-\newcommand{\allowabledisclosure}{
-    \section{Allowable Disclosure to Third Parties}\label{allowable-disclosure}
-    Without limiting the foregoing, \clientbusinessname may disclose Confidential Information or PII to any third party on a need-to-know basis for the purposes of \clientbusinessname performing any Services (as defined herein or elsewhere in contractual agreements between \companyname and \clientbusinessname) for \companyname; provided, however, that such third party is subject to written non-use and non-disclosure obligations at least as protective of \companyname, the Confidential Information, and PII as least as protective of those contained in this Agreement and that \clientbusinessname promptly notifies \companyname of the disclosure of Confidential Information or PII pursuant to the terms set forth in Section \ref{notification-of-disclosure}.
-}
+
 %-------------------------------------------------------------
 %	OBLIGATION TO DISCLOSE SECTION
 %-------------------------------------------------------------
 \newcommand{\obligationtodisclose}{
     \section{Obligation to Disclose}\label{obligation-to-disclose}
-    \clientbusinessname may also disclose Confidential Information to the extent compelled by applicable law; provided, however, prior to such disclosure, \clientbusinessname shall provide prior written notice to \companyname pursuant to Section \ref{notification-of-disclosure} and seek a protective order or such similar confidential protection as may be available under applicable law.
+    We may also disclose Confidential Information to the extent compelled by applicable law; provided, however, prior to such disclosure, We shall provide prior written notice to You pursuant to Section \ref{notification-of-disclosure} and seek a protective order or such similar confidential protection as may be available under applicable law. You share this obligation related to any of Our Confidential Information that You may possess.
 }
 %---------------------------------------------------------
 %	NOTIFICATION OF BREACH OR DISCLOSURE SECTION
 %---------------------------------------------------------
 \newcommand{\notificationofbreach}{
-    \section{Notification in the Event of Breach or Other Disclosure of Confidential Information or PII}\label{notification-of-disclosure}
-    The \clientbusinessname will immediately notify \companyname in writing upon discovery of any:
-        \begin{enumerate}
+    \section{Notification in the Event of Breach}\label{notification-of-disclosure}
+    We will immediately notify You in writing upon discovery of any:
+        \begin{longenum}
             \item unauthorized disclosure of the Confidential Information or PII;
             \item loss, unauthorized possession, use, or knowledge of the Confidential Information or PII; or
-            \item breach of this Agreement by the \clientbusinessname.
-        \end{enumerate}
+            \item breach of this Agreement by the Us, our employees, contractors and other third parties.
+        \end{longenum}
+    You agree to do the same with respect to Our Confidential Information.
 
-        \subsection{Notice Requirements} The notice must fully detail such loss, unauthorized possession, use, or knowledge of Confidential Information or PII.
+        \subsection{Notice Requirements} The notice will fully detail any such loss, unauthorized possession, use, or knowledge of Confidential Information or PII.
 
         \subsection{Cooperation}
-        The \clientbusinessname will cooperate with \companyname in any reasonable fashion in order to assist \companyname  to regain possession of the Confidential Information or PII and prevent its further unauthorized use or disclosure.
+        Both Parties will cooperate with each other in a reasonable fashion to assist the other in regaining possession of the Confidential Information or PII and to prevent its further use or disclosure.
 }
 %---------------------------------------------------------
 %	INDEMNIFICATION SECTION
 %---------------------------------------------------------
-\newcommand{\ciindemnification}{
+\newcommand{\indemnification}{
     \section{Indemnification}\label{indemnification}
-        \subsection{Indemnification Obligation}
-        Subject to paragraph \ref{notice-and-failure-to-notify}, the \clientbusinessname shall indemnify \companyname against all losses suffered by \companyname and arising out of the \clientbusinessname or its Representative's
-        \begin{enumerate}
-            \item unauthorized or improper use or disclosure of any Confidential Information or PII;
-            \item breach of its obligations under this agreement; or
-            \item misconduct or negligence.
-        \end{enumerate}
-        \subsection{Notice and Failure to Notify}
-            \subsubsection{Notice Requirement} Before bringing a claim for indemnification, the indemnified party shall:
-            \begin{enumerate}
-                \item notify the indemnifying party of the indemnifiable proceeding; and
-                \item deliver to the indemnifying party all legal pleadings and other documents reasonably necessary to indemnify or defend the indemnifiable proceeding.
-            \end{enumerate}
-            \subsubsection{Failure to Notify}
-            If the indemnified Party fails to notify the indemnifying Party of the indemnifiable proceeding, the indemnifying Party will be relieved of its indemnification obligations to the extent that it was prejudiced by the indemnified Party's failure.
+    If an arbitrator finds that this Agreement was breached and losses were suffered because of that breach, the breaching Party will compensate the non-breaching party for such losses or provide the remedies specified
 }
 %---------------------------------------------------------
 %	NONDISCLOSURE TERM SECTION
 %---------------------------------------------------------
 \newcommand{\termofnondisclosure}{
     \section{Duration of Nondisclosure and Related Provisions}
-        \subsection{Term of Agreement} This Agreement shall endure for a period of three (3) years, after which it may be renewed by the written agreement of both Parties.
-        \subsection{Term of Nonuse and Nondisclosure}Notwithstanding the foregoing, Sections \ref{confidential-information}, \ref{allowable-disclosure}, \ref{obligation-to-disclose}, \ref{notification-of-disclosure}, and \ref{indemnification} shall survive the termination or expiry of this Agreement and \clientbusinessname's duty to hold Confidential Informationand PII in confidence shall remain in effect until (i) the Proprietary Information no longer qualifies as a trade secret; (ii) until \companyname sends \clientbusinessname written notice releasing \clientbusinessname from this Agreement; or (iii) or after five (5) years from the Effective Date, whichever occurs first.
+        \subsection{Term of Nondisclosure} The nondisclosure provisions in this Agreement will endure for a period of two (2) years, after which they may be renewed by the written agreement of both Parties.
+
+        \subsection{Term of Nonuse and Nondisclosure}Sections \ref{confidential-information}, \ref{allowable-disclosure}, \ref{obligation-to-disclose}, \ref{notification-of-disclosure}, and \ref{indemnification} shall persist after the termination or expiration of this Agreement and \clientbusinessname's duty to hold Confidential Informationand PII in confidence shall remain in effect until (i) the Proprietary Information no longer qualifies as a trade secret; (ii) until \companyname sends \clientbusinessname written notice releasing \clientbusinessname from this Agreement; or (iii) or after five (5) years from the Effective Date, whichever occurs first.
         \subsection{Term of Agreement for PII}
         Confidentiality obligations regarding PII under this Agreement shall remain in effect so long as \clientbusinessname can access, store, transmit, receive, or disclose the PII.
 }
@@ -237,9 +235,9 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 %	CONFIDENTIAL INFORMATION RELIEF SECTION
 %-----------------------------------------------------
 
-\newcommand{\reliefCI}{
+\newcommand{\relief}{
     \section{Relief}
-    \counterpartyname understands and agrees that any use or dissemination of Confidential Information or PII in violation of this Agreement may cause \companyname irreparable harm, that monetary damages may not be a sufficient remedy for unauthorized use or disclosure of Confidential Information or PII, and that Company may be left with no adequate remedy at law; therefore, \companyname shall be entitled, without waiving any other rights or remedies, to such injunctive or equitable relief as may be deemed proper by a court of proper jurisdiction. Such remedies shall not be deemed to be the exclusive remedy for any breach of this Agreement but shall be in addition to all other remedies available at law or in equity.
+    You understand and agree that any use or dissemination of Our Confidential Information or PII in violation of this Agreement may cause Us irreperable harm. Monetary damagaes may not be enough of a remedy for unauthorized use or disclosure. We may be left with no adequate remedy at law. Therefore, We shall be entitled without waiving any other rights or remedies, to injunctive or equitable relief as an appropriate court may award. These remedies should not be assumed to be the only remedies available to us with respect to any breach of this Agreement.
 }
 
 %-------------------------------------------------------------
@@ -248,7 +246,7 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 
 \newcommand{\norelationship}{
     \section{No Relationship}
-    Nothing contained in this Agreement shall be deemed to constitute either Party a partner, joint venturer, nor employee of the other Party for any purpose.
+    Nothing in this Agreement should be interprested to construe either Party a partner, joint venturer, nor employee of the other Party for any purpose.
 }
 
 %-------------------------------------------------------------
@@ -256,8 +254,16 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 %-------------------------------------------------------------
 
 \newcommand{\governinglaw}{
-    \section{Governing Law}\label{governing-law}
-    The validity, interpretation, construction, and performance of this Agreement will be governed by and construed in accordance with the substantive laws of the State of \companystate, \companycountry without giving effect to the principles of conflict of laws of such State.
+  \section{Governing Law}\label{governing-law}
+  The validity, interpretation, construction, and execution of this Agreement will be governed by and construed in using the laws of the State of Michigan.
+}
+
+%------------------------------------------------------
+%	CONFIDENTIAL INFORMATION RELIEF SECTION
+%-----------------------------------------------------
+\newcommand{\limitationofliability}{
+  \section{Limitation of Liability}
+  Your and our total compensation obligation under this Agreement cannot exceed thirty-three percent (33\%) of the amount that We have billed to You in the last tweleve months for the applicable service. Neither Party has any compensation, contribution, or other obligation for consequential, punitive, incidental, indirect, or exemplary losses (inlcuding, but not limited to, profit or revenue loss, capital costs, replacement costs and increased operating costs).
 }
 %-------------------------------------------------------------
 %	ARBITRATION SECTION
@@ -267,31 +273,34 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 
     \section{Consent to Arbitration}\label{arbitration}
         \subsection{}
-        \textsc{\clientbusinessname hereby waives their right to a jury trial and acknowledges that, in the absence of this provision, they would be able to sue in court. this waiver is intended to have a scope that encompasses any and all disputes that might be filed in any court and that are related to this agreement, including, without limit, claims of tort, contract, statutory and other common law natures.}
-        \subsection{}
-        Should there arise any controversy, claim, or dispute relating to this Agreement or the interpretation, termination, updating, enforcement, breach, or general validity thereof, any determination related to the scope or application of this Agreement shall be determined by arbitration in \companycity, \companystate, \companycountry, before one sole arbitrator. The judgment from the arbitration award or decision may be entered in any relevant court that has jurisdiction. This clause does not prevent the parties from seeking provisional measures in service of arbitration from a court of relevant authority.
-        \subsection{}
-        The Arbitrator shall be selected and the hearing conducted under the rules of the American Arbitration Association (the \textbf{``AAA''}). During the life of this Agreement, the Parties may mutually agree to use the Federal Mediation and Conciliation Service of the United States of America for such purposes or a system where the Arbitrator is selected from a mutually agreed upon panel of Arbitrators.
-        \subsection{}
-        The expenses and fees as billed by the Arbitrator shall be borne by the losing Party. The filing fee shall be paid by the losing Party. The expenses of a hearing reporter shall be borne by the party requesting the reporter unless the Parties jointly agree to share such costs.
-        \subsection{}
-        A monetary award may be made for attorney or witness fees arising out of, or attributable to, the grievance appeal.
-        \subsection{}
-        The Parties may propose consolidation of grievance arbitration cases for arbitration hearings where such cases concern similar issues. The Parties will continue to discuss expedited grievance arbitration or mediation procedure, as well as the types of cases which will be subject to such expedited procedure.
-        \subsection{}
-        The Arbitrator shall only have the authority to determine compliance with the provisions of the Agreement. The Arbitrator shall be the judge of the relevance and materiality of the evidence offered and conformity to the legal rules of evidence shall not be necessary. The Arbitrator shall not make any award which in effect would grant the \clientbusinessname or \companyname any rights or privileges which were not obtained or preserved in the contract provisions.
-        \subsection{}
-        The decision of the Arbitrator will be final and binding on all parties to this Agreement and an Arbitration decision shall not be appealable. The written decision of the Arbitrator shall be rendered within 30 calendar days from the closing of the record of the hearing. However, when the Arbitrator declares a bench decision, such decision shall be rendered in writing within 15 calendar days from the date of the Arbitration hearing. A written copy of the decision shall be provided, and, if available from either the Arbitrator or AAA, in electronic format (PDF) and sent to both Parties.
-        \subsection{}
-        Notwithstanding the foregoing, the Parties shall also have the right to initiate an action in a court of proper jurisdiction for injunctive or other reasonable relief while a final decision from the arbitrator is pending.
-        \subsection{}
-        To the furthest extent permissible by law, \clientbusinessname hereby agrees that:
-        \begin{enumerate}
-          \item no arbitration action shall be joined with any other;
-          \item there exists no right for any dispute to be arbitrated as a class-action or to utilize class action mechanisms; and
-          \item there exists no right for any dispute to be brought in a representative capacity on the behalf of the public or any other uninvolved persons.
-        \end{enumerate}
-        Should the provisions of this paragraph be found to be unenforceable, then the controversy, claim or dispute shall be brought before the state or federal courts (the \textbf{``Courts''}) in \companycity, \companystate, \companycountry.
+        By signing this Agreement, You waive your right to a jury trial and understand and acknowledge that You would otherwise be able to sue in court. Your waiver is intended to encompass any and all disputes related to this Agreement that might be filed in any court.
+
+        Any disagreement about this Agreement, its interpretation, termination, any updates made to it, enforcement of the Agreement, or the general validity of this Agreement will be settled before a single arbitrator in \companycity, \companystate, \companycountry. If it's relevant, the judgement of the arbitrator may be entered into any court that has jurisdiction. This subsection does not prevent You or Us from seeking provisional measures from a relevant court.
+
+        To save You and Us time and money the unforuante and unlikely circumstance that we find ourselves having a disagreement, the following subsection is meant to set the basic terms of any potential abritration proceeding:
+
+          \subsubsection{Essential Terms of Arbitration}
+          The Arbitrator will be selected and the hearing conducted under the rules of the American Arbitration Association (the \textbf{``AAA''}). During the life of this Agreement, the Parties may mutually agree to use the Federal Mediation and Conciliation Service of the United States of America for such purposes or a system where the Arbitrator is selected from a mutually agreed-upon panel of Arbitrators.
+
+          The expenses and fees billed by the Arbitrator will be paid by the losing Party. The filing fee will be paid by the losing Party. The expenses of a hearing reporter will be paid by the Party making such a request unless the Parties jointly agree to share such costs.
+
+          A monetary award may be made for attorney or witness fees related to the grievance appeal.
+
+          Either or both Parties may propose consolidation of grievance arbitration cases for arbitration hearings where the cases deal with similar issues. The Parties will continue to discuss expedited grievance arbitration or a mediation procedure as well as the types of cases which will be eligible for such expedited procedure.
+
+          The Arbitrator will only have the authority to determine compliance with the provisions of this Agreement. The Arbitrator will be the judge of the relevance and materiality of the evidence offered and conformation to the general legal rules of evidence will not be necessary. The Arbitrator will not make any award which, in effect, would grant the You or Us any rights or privileges that were not already contained in the contract provisions.
+
+          The decision of the Arbitrator will be final and binding on all Parties to this Agreement and the decision will not be appealable. The written decision of the Arbitrator shall be delivered within 30 calendar days from the closing of the record of the hearing. However, when the Arbitrator declares a bench decision, such decision shall be rendered in writing within 15 calendar days from the date of the Arbitration hearing. A written copy of the decision shall be provided, and, if available from either the Arbitrator or AAA, in electronic format (PDF) and sent to both Parties.
+
+          Notwithstanding the foregoing, the Parties shall also have the right to initiate an action in a court of proper jurisdiction for injunctive or other reasonable relief while a final decision from the Arbitrator is pending.
+
+          To the furthest extent allowed by the law, You agree that:
+          \begin{longenum}
+            \item no arbitration action shall be joined with any other;
+            \item there exists no right for any dispute to be arbitrated as a class-action or to utilize class action mechanisms; and
+            \item there exists no right for any dispute to be brought in a representative capacity on the behalf of the public or any other uninvolved persons.
+          \end{longenum}
+          Should the provisions of this paragraph be found to be unenforceable, then the controversy, claim, or dispute shall be brought before the state or federal courts (the \textbf{``Courts''}) in \companycity, \companystate, \companycountry.
 }
 
 %-------------------------------------------------------------
@@ -300,7 +309,7 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 
 \newcommand{\severability}{
     \section{Severability}
-    If a court or other body of competent jurisdiction finds, or the Parties mutually believe, any provision of this Agreement, or portion thereof, to be invalid or unenforceable, such provision will be enforced to the maximum extent permissible so as to affect the intent of the Parties, and the remainder of this Agreement will continue in full force and effect.
+    If a court or other competent body finds that, or You and We mutually belivem that, any part of this Agreement, in whole or in part, is invalid or cannot be enforced, then such provision will be enforced to the maximum extent possible so as to reflect the intent that the Parties had when entering into this Agreement. The remainder of the Agreement will remain in full force and effect.
 }
 
 %-------------------------------------------------------------
@@ -309,7 +318,7 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 
 \newcommand{\entireagreement}{
     \section{Entire Agreement}
-    This Agreement expresses the complete understanding of the Parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings. This Agreement may not be amended except in writing signed by both Parties.
+    This Agreement expresses the complete understanding between You and Us with respect to the subject matter and overrides all prior proposals, agreements, representations, and understandings. This Agreement may not be amended except in writing signed by both Parties.
 }
 
 %--------------------------------------------------
@@ -318,7 +327,7 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
 
 \newcommand{\waivers}{
     \section{Waivers}
-    The failure to exercise any right provided in this Agreement shall not be a waiver of prior or subsequent rights. This Agreement and each Party's obligations shall be binding on the representatives, assigns, and successors of such Party. Each Party has signed this Agreement through its authorized representative.
+    If You or We fail to exercise any right granted to either Party in this Agreement, then that shall not be considered to be a waiver of rights an obligations before or after either Party's failure to exercise. This Agreement and each Party's obligations contained in it will be binding on the representatives, assigns, and successors of each Party. Each Party has signed this Agreement through its authorized representative.
 }
 
 %--------------------------------------------------
@@ -329,7 +338,23 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
     \section{No Obligation}
     Nothing contained in this Agreement shall obligate either Party to proceed with a transaction between them and each Party reserves the right, in its sole discretion, to terminate the discussions.
 }
+%———————————————————————————————————————
+% CONTACT
+%———————————————————————————————————————
+\newcommand{contact}{
+  \section{Contact}
+  You may contact us in any of the following fashions:
+    \subsection*{By Phone} % Suppress section numbering with the *
+    \companyphone (Office)
+    \subsection*{By Email} % Suppress section numbering with the *
+    \principaloneemail
+    \principaltwoemail
+    \subsection*{On Our Website} % Suppress section numbering with the *
+    \companywebsite
+    \subsection*{By Post} % Suppress section numbering with the *
+    \companyaddress
 
+}
 %------------------------------------------------------------
 %	SIGNATURE PAGE
 %------------------------------------------------------------
@@ -344,7 +369,6 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
     Signatures may be executed by way of facsimile, email, or electronic signature and shall be considered an original.
 
     \subsection*{\clientbusinessname} % Suppress section numbering with the *
-    \counterpartyname\\
     \vspace{3ex}\\
     \begin{tabular}{lp{10pt}l}
     Signature: && \hspace{0.35cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
@@ -356,7 +380,6 @@ Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and
     \end{tabular}
     %------------------------------------------------
     \subsection*{\companyname} % Suppress section numbering with the *
-    \signatory\\
     \vspace{3ex}\\
     \begin{tabular}{ l p{10pt} l }
     Signature: && \hspace{0.5cm} \makebox[4in]{\hrulefill} \\ \\[3pt]

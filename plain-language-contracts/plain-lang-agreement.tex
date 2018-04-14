@@ -9,45 +9,48 @@
 
 %SERVICE PROVIDER (YOU) INFORMATION
 % Personnel names, titles, and company name
-\renewcommand{\principalone}{} %first operator of \companyname
-\renewcommand{\principaltwo}{} %second operator of \companyname
-\renewcommand{\companyname}{[name of your oranization]} %name of company or individual generating agreement
-\renewcommand{\preparer}{[person who prepared the document]} %name of person who prepared agreement
-\renewcommand{\signatory}{[person who signs]} %person within \ludu that will be signing this agreement
+\renewcommand{\principalone}{} %first principal of \companyname on the project defined by this contract
+\renewcommand{\principaltwo}{} %second principal of \companyname on the project defined by this contract
+\renewcommand{\companyname}{} %name of company or individual generating agreement
+\renewcommand{\preparer}{} % name of person who prepared the contract (could be one of the principals)
+\renewcommand{\signatory}{} % person within \companyname that will be signing this agreement
 %-------------------------------------------------------
-% LUDUREL CONTACT INFO
+% YOUR CONTACT INFO
 %-------------------------------------------------------
 
 %YOUR ADDRESS
-\renewcommand{\companyaddress}{[full address of your company]}
-\renewcommand{\companycity}{[city of company]}
-\renewcommand{\companystate}{[state of company]}
-\renewcommand{\companyZIP}{[ZIP code of company]}
-\renewcommand{\companycountry}{[The United States of America]}
-\renewcommand{\companyphone}{[phone number of company]}
+\renewcommand{\companyaddress}{} % FULL ADDRESS of your organization from street number to country—this is used in the preamble of the contract and elsewhere while the following commands may be called elsewhere (governing law, place of dispute settlement, &c.)
+\renewcommand{\companycity}{} % primary city in which your organization is situated
+\renewcommand{\companystate}{} % state or province in which your organization is primarily situated
+\renewcommand{\companyZIP}{} % ZIP code (if US) or postal code in which your organization is primarily situated
+\renewcommand{\companycountry}{} % country in which your organization primarily does business
+\renewcommand{\companyphone}{} % your organization's primary phone number or the phone number of the principal contact for the project defined by this contract
 
 %YOUR EMAILS
-\renewcommand{\companyemail}{primary email address of company}
-\renewcommand{\principaloneemail}{[email of first principal]}
-\renewcommand{\principaltwoemail}{[email of second principal]}
+\renewcommand{\companyemail}{} % the general "contact@" or "info@" email address for your organization
+\renewcommand{\principaloneemail}{} % email address of the principal person managing the project defined by this contract
+\renewcommand{\principaltwoemail}{} % email address of the secondary point of contact in your organization managing or working on the project defined by this contract
 
 %WEBSITES
-\renewcommand{\companywebsite}{[company website]}
-\renewcommand{\companyGithub}{[company github URL]}
+\renewcommand{\companywebsite}{} % your business or personal freelance website, if you have one
+\renewcommand{\companyGithub}{} % your GH URL, if you have one
 
 %———————————————————————————————————————
 % CLIENT INFORMATION
 %———————————————————————————————————————
 % CLIENT NAME
-\renewcommand{\clientbusinessname}{[Client's Business Name]} %incorporated  business name of client
-\renewcommand{\clientname}{[Point of Contact]}  %Name of individual at Client that we will be dealing with
+\renewcommand{\clientbusinessname}{[Client's Business Name]} % name of client business as incorporated
+\renewcommand{\clientname}{}  % name of person with whom you will be dealing directly at \clientbusinessname
 
-% Counter Party's Contact Information
-\renewcommand{\clientaddress}{[Full client address]}
-\renewcommand{\counterpartycity}{[Counter Party city]}
-\renewcommand{\counterpartystate}{[counter party state]}
-\renewcommand{\counterpartyZIP}{[counter party zip code]}
-\renewcommand{\counterpartycountry}{[counter party country]}
+% CLIENT CONTACT INFORMATION
+\renewcommand{\clientaddress}{} % FULL ADDRESS of Client from street number to country—this is used in the preamble of the contract and elsewhere while the following commands may be called in different locations (governing law, place of arbitration, &c.)
+\renewcommand{\clientcity}{} % city in which the Client's principal place of businesss is located
+\renewcommand{\clientstate}{} % State or province of Client's principal place of business
+\renewcommand{\clientzip}{} % Client's ZIP code (if in US) or postal code (if principal place of business is elsewhere)
+\renewcommand{\clientcountry}{} % Country of Client's principal place of business
+
+\renewcommand{\clientphone}{} % telephone number of client, preferably direct line to \clientname
+\renewcommand{\clientemail}{} % preferably direct email address for \clientname
 
 %———————————————————————————————————————
 % CONTRACT INFORMATION
@@ -61,6 +64,34 @@
 %———————————————————————————————————————
 % END DYNAMIC CONTRACT INFORMATION
 %———————————————————————————————————————
+
+%———————————————————————————————————————
+% SERVICES AVAILABLE FOR INPUT
+% found in services.tex library as subsections with enumeration suppressed by *
+%———————————————————————————————————————
+
+% LANGUAGE SERVICES
+
+  % \proofreading
+  % \copyediting
+  % \comprehensiveediting
+  % \research
+  % \factchecking
+  % \permissionsmgmt
+  % \manuscriptevaluation
+  % \latextypesetting
+  % \copywriting
+  % \legaldrafting
+
+% WEB DESIGN SERVICES
+
+  % \homepage
+  % \menupage
+  % \businesslocator
+  % \infopage
+  % \aboutpage
+  % \faqpage
+
 \usepackage[margin=.8in, paperwidth=8.5in, paperheight=11.0in]{geometry}
 \usepackage{enumitem}
   \newlist{longenum}{enumerate}{5}
