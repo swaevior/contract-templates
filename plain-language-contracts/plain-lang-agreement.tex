@@ -1,0 +1,90 @@
+
+\documentclass[usletter,11pt]{article} % The default font size is 12pt on A4 paper, change to 'usletter' for US Letter paper and adjust margins in structure.tex
+\usepackage[margin=.8in, paperwidth=8.5in, paperheight=11.0in]{geometry}
+\usepackage{enumitem}
+  \newlist{longenum}{enumerate}{5}
+  \setlist[longenum,1]{label=\roman*)}
+  \setlist[longenum,2]{label=\alph*)}
+  \setlist[longenum,3]{label=\arabic*)}
+  \setlist[longenum,4]{label=(\roman*)}
+  \setlist[longenum,5]{label=(\alph*)}
+\usepackage[usenames,svgnames]{xcolor}
+\usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{} %clears contents of standard header and footer to make space for following fancy parameters
+    \fancyheadoffset{0cm}
+    \headheight 25pt %states height of footer; if this figure grows too large, it may push the parbox down the page and correspondingly cut off the footer
+    \renewcommand{\headrulewidth}{2pt}
+    \rhead{Services Agreement}
+    \lhead{\large{\textbf{Ludurel}}}
+    \footskip = 4ex %states the distance between the bottom of the text (parbox) and the beginning of footer content
+	\rfoot{Page \thepage}
+	\cfoot{\textcopyright \hspace{.25em} 2018 Ludurel}
+	\lfoot{\tiny{sss/APR2018}}
+\usepackage{indentfirst}
+\usepackage{hyperref} %allows for internal and external hyper linking
+	\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+	unicode=false,          % non-Latin characters in Acrobat bookmarks
+	pdftoolbar=true,        % show Acrobat toolbar?
+	pdfmenubar=true,        % show Acrobat menu?
+	pdffitwindow=false,     % window fit to page when opened
+	pdfstartview={FitH},    % fits the width of the page to the window
+	pdftitle={Ludurel Services Agreement},    % title
+	pdfauthor={swaevior},     % author
+	pdfsubject={seed investment},   % subject of the document
+	pdfcreator={swaevior},   % creator of the document
+	pdfproducer={swaevior}, % producer of the document
+	pdfkeywords={gamer ammo, gamerammo, blockchain, ethereum, ethereum classic, contract, legal, agreement, investment, SAFE, SAFE note}, % list of keywords
+	pdfnewwindow=true,      % links in new window
+	colorlinks=true,        % false: boxed links; true: colored links
+	linkcolor=Gray,         % color of internal links
+	citecolor=Gray,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=Gray           % color of external links
+}
+
+
+%-----------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------
+\begin{document}
+
+\vspace*{\fill} % Add whitespace above to center the title page content
+
+\begin{center}
+
+{\huge \textbf{Services Agreement}}
+
+\small\textit{{between}}
+
+{\Large Ludurel}
+
+\small\textit{{and}}
+
+{\LARGE\textbf{CLIENT}}\\
+
+\vspace{5ex}
+Prepared by\\
+\vspace{2ex}
+sb swae
+\vspace{2ex}
+
+9 Groveland Street
+
+Battle Creek, Michigan, 49017
+
++1 269.389.0082
+
+finance@gamerammo.io
+
+https://gamerammo.io
+
+\end{center}
+
+\vspace*{\fill} % Add whitespace below to center the title page content
+
+\newpage
+\section{Preamble and Recitals}
+
+\end{document}
