@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 01:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 03:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -103,31 +103,19 @@ My plan is to forget the whole thing and hope for the best.
 
 LaTeX Warning: Reference `.' on page 1 undefined on input line 172.
 
-
-./plain-lang-lib.tex:314: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 }
-       
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./plain-lang-lib.tex:314: Missing number, treated as zero.
+./plain-lang-lib.tex:201: Missing number, treated as zero.
 <to be read again> 
-                   g
-l.314 }
+                   v
+l.201 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:314: Missing control sequence inserted.
+./plain-lang-lib.tex:201: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.314 }
+l.201 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -135,68 +123,24 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:314: You already have nine parameters.
-\reserved@a ... \def \expandafter r\reserved@b #10
-                                                  g{
-l.314 }
+./plain-lang-lib.tex:201: You already have nine parameters.
+\reserved@a ... \def \expandafter d\reserved@b #10
+                                                  v{
+l.201 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:314: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:201: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.314 }
+l.201 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-./plain-lang-lib.tex:322: Missing number, treated as zero.
-<to be read again> 
-                   a
-l.322 }
-       
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./plain-lang-lib.tex:322: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.322 }
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-./plain-lang-lib.tex:322: You already have nine parameters.
-\reserved@a ... \def \expandafter c\reserved@b #10
-                                                  a{
-l.322 }
-       
-I'm going to ignore the # sign you just used.
-
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-./plain-lang-lib.tex:322: Undefined control sequence.
-<argument> ...nd. The total price of \projectcost 
-                                                  , outlined on \ref of this...
-l.322 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `o' on page 1 undefined on input line 322.
 
 [1
 
@@ -207,16 +151,145 @@ LaTeX Warning: Reference `o' on page 1 undefined on input line 322.
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}Visuals}{1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.3}Documentation
 }{1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Rights Reserved}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Development}{1}}
+] [2
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Hardware Requireme
+nts}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Domain and Softwar
+e Hosting}{2}}
+]
+./plain-lang-lib.tex:201: You can't use `macro parameter character #' in horizo
+ntal mode.
+<argument> ...Javascript, Ruby, Python, Go, C, C##
+                                                  , and C++ for optimization...
+l.201 }
+       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+
+Overfull \hbox (1.2592pt too wide) in paragraph at lines 201--201
+\OT1/cmr/m/n/10.95 work of widely-accepted markup and object-oriented pro-gram-
+ming lan-gauges
+ []
+
+[3
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Software Requireme
+nts}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Languages}{3}
+}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Tools}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}Services}{3}}
+
 ]
 
-./plain-lang-lib.tex:322: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:391: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.322 }
+l.391 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./plain-lang-lib.tex:391: Missing number, treated as zero.
+<to be read again> 
+                   g
+l.391 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./plain-lang-lib.tex:391: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.391 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./plain-lang-lib.tex:391: You already have nine parameters.
+\reserved@a ... \def \expandafter r\reserved@b #10
+                                                  g{
+l.391 }
+       
+I'm going to ignore the # sign you just used.
+
+
+./plain-lang-lib.tex:391: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./plain-lang-lib.tex:399: Missing number, treated as zero.
+<to be read again> 
+                   a
+l.399 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./plain-lang-lib.tex:399: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.399 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./plain-lang-lib.tex:399: You already have nine parameters.
+\reserved@a ... \def \expandafter c\reserved@b #10
+                                                  a{
+l.399 }
+       
+I'm going to ignore the # sign you just used.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+./plain-lang-lib.tex:399: Undefined control sequence.
+<argument> ...nd. The total price of \projectcost 
+                                                  , outlined on \ref of this...
+l.399 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `o' on page 4 undefined on input line 399.
+
+
+./plain-lang-lib.tex:399: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -225,36 +298,36 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-LaTeX Warning: Reference `o' on page 2 undefined on input line 322.
+LaTeX Warning: Reference `o' on page 4 undefined on input line 399.
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-./plain-lang-lib.tex:412: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:489: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.412 }
+l.489 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:412: Missing number, treated as zero.
+./plain-lang-lib.tex:489: Missing number, treated as zero.
 <to be read again> 
                    n
-l.412 }
+l.489 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:412: Missing control sequence inserted.
+./plain-lang-lib.tex:489: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.412 }
+l.489 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -262,50 +335,54 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:412: You already have nine parameters.
+./plain-lang-lib.tex:489: You already have nine parameters.
 \reserved@a ... \def \expandafter c\reserved@b #10
                                                   n{
-l.412 }
+l.489 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:412: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:489: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.412 }
+l.489 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[4
+\@writefile{toc}{\contentsline {section}{\numberline {3}Rights Reserved}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Contact}{4}}
+]
 
-./plain-lang-lib.tex:420: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:497: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.420 }
+l.497 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:420: Missing number, treated as zero.
+./plain-lang-lib.tex:497: Missing number, treated as zero.
 <to be read again> 
                    r
-l.420 }
+l.497 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:420: Missing control sequence inserted.
+./plain-lang-lib.tex:497: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.420 }
+l.497 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -313,21 +390,21 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:420: You already have nine parameters.
+./plain-lang-lib.tex:497: You already have nine parameters.
 \reserved@a ... \def \expandafter t\reserved@b #10
                                                   r{
-l.420 }
+l.497 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:420: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:497: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.420 }
+l.497 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -724,15 +801,15 @@ LaTeX Info: Redefining \nameref on input line 146.
 \@outlinefile=\write3
 \openout3 = `plain-lang-agreement.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 160.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
- [2] [3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
+ [5]
 ./plain-lang-agreement.tex:188: Undefined control sequence.
 \deliverables ...ection {Deliverables} \par \ludu 
                                                   agrees to deliver to the Y...
@@ -786,46 +863,33 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-[4]
+[6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
  (./plain-lang-agreement.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
-
-
-Package rerunfilecheck Warning: File `plain-lang-agreement.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `plain-lang-agreement.out':
-(rerunfilecheck)             Before: 77BC3926611FFFEFC485009276BA1F64;94
-(rerunfilecheck)             After:  41D41FFEC6C1E299420EBA6CB3F15B0C;94.
+Package rerunfilecheck Info: File `plain-lang-agreement.out' has not changed.
+(rerunfilecheck)             Checksum: BEDF718A49C4EC52F53B2BBA306D6688;94.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 6386 strings out of 492995
- 94009 string characters out of 6132704
- 220995 words of memory out of 5000000
- 9902 multiletter control sequences out of 15000+600000
+ 6385 strings out of 492995
+ 94019 string characters out of 6132704
+ 224089 words of memory out of 5000000
+ 9904 multiletter control sequences out of 15000+600000
  7574 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,15n,43p,767b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on plain-lang-agreement.pdf (4 pages, 81560 bytes).
+ 28i,14n,43p,858b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on plain-lang-agreement.pdf (6 pages, 91001 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
