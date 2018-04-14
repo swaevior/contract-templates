@@ -2,10 +2,10 @@
 \documentclass[usletter,11pt]{article} % The default font size is 12pt on A4 paper, change to 'usletter' for US Letter paper and adjust margins in structure.tex
 \input{plain-lang-lib.tex}
 \input{services.tex}
-%-------------------------------------------------------------
+%———————————————————————————————————————
 %	DYNAMIC CONTRACT INFORMATION
 % RENEW THE FOLLOWING COMMANDS TO AUTOMATICALLY POPULATE CONTRACT
-%-------------------------------------------------------------
+%———————————————————————————————————————
 
 %SERVICE PROVIDER (YOU) INFORMATION
 % Personnel names, titles, and company name
@@ -14,9 +14,9 @@
 \renewcommand{\companyname}{} %name of company or individual generating agreement
 \renewcommand{\preparer}{} % name of person who prepared the contract (could be one of the principals)
 \renewcommand{\signatory}{} % person within \companyname that will be signing this agreement
-%-------------------------------------------------------
+%———————————————————————————————————————
 % YOUR CONTACT INFO
-%-------------------------------------------------------
+%———————————————————————————————————————
 
 %YOUR ADDRESS
 \renewcommand{\companyaddress}{} % FULL ADDRESS of your organization from street number to country—this is used in the preamble of the contract and elsewhere while the following commands may be called elsewhere (governing law, place of dispute settlement, &c.)
@@ -60,6 +60,7 @@
 \renewcommand{\contracttitle}{} % Name of Agreement i.e., "Service Agreement" or "Simple Agreement for Future Equity"
 \renewcommand{\effectivedate}{} % Generally \today but may also be future- or post-dated in some instances; all date formats allowed
 \renewcommand{\terminationdate}{}
+\renewcommand{\depositamount}{\$} %amount for the non-refunable deposit required to begin work
 
 %———————————————————————————————————————
 % END DYNAMIC CONTRACT INFORMATION
@@ -139,60 +140,58 @@
 	urlcolor=Gray           % color of external links
 }
 
-
+\begin{document}
 %———————————————————————————————————————
 % TITLE PAGE
 %———————————————————————————————————————
-\begin{document}
+\begin{titlepage}
 
 \vspace*{\fill} % Add whitespace above to center the title page content
 
 \begin{center}
 
-{\huge \textbf{Services Agreement}}
+{\huge \textbf{\companyname}}
 
-\small\textit{{between}}
+{\Large \contracttitle}
 
-{\Large \companyname}
+\small{with}
 
-\small\textit{{and}}
-
-{\LARGE\textbf{\clientname}}\\
+{\LARGE\textbf{\clientbusinessname}\\
 
 \vspace{5ex}
-Prepared by\\
+Prepared: \today\\
 \vspace{2ex}
-\preparer
+\small{by}\\
+\vspace{2ex}
+\preparer\\
 \vspace{2ex}
 
 \companyaddress
 
 \companyphone
-
-\companyemail
-
-https://gamerammo.io
+\companywebsite
+\companyGithub
 
 \end{center}
 
 \vspace*{\fill} % Add whitespace below to center the title page content
 
-\newpage
+\end{titlepage}
 %———————————————————————————————————————
-% BEGIN Agreement
+% AGREEMENT
 %———————————————————————————————————————
-
+\preamble
 %———————————————————————————————————————
 % DELIVERABLES SECTION
 %———————————————————————————————————————
-{\deliverables}{
 \section{Deliverables}
 
-\ludu agrees to deliver to the You a website consisting of the following components:
+\companyname agrees to deliver to the You a website consisting of the following components:
 
 Home Page\\
 Menu Page\\
-Store Locater \& Info Page\\
+Store Locator\\
+Info Page\\
 FAQs Page\\
 
 Per your specifications, We also agree to provide you with the following services:
@@ -204,8 +203,6 @@ Research\\
 \latex Document Typesetting and Layout
 
 You have supplied more detailed specifications to us in writing via email. You are welcome to make any changes to the specifications for deliverables provided that You also approve any changes We may need to make to our estimate and/or retainer. Any work outside of the scope of the website (including limimted maintenance) and the services mentioned above will be subject to a separate contract.
-}
-
 
 
 \end{document}
