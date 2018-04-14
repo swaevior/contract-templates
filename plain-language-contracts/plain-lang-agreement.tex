@@ -1,5 +1,66 @@
 
 \documentclass[usletter,11pt]{article} % The default font size is 12pt on A4 paper, change to 'usletter' for US Letter paper and adjust margins in structure.tex
+\input{plain-lang-lib.tex}
+\input{services.tex}
+%-------------------------------------------------------------
+%	DYNAMIC CONTRACT INFORMATION
+% RENEW THE FOLLOWING COMMANDS TO AUTOMATICALLY POPULATE CONTRACT
+%-------------------------------------------------------------
+
+%SERVICE PROVIDER (YOU) INFORMATION
+% Personnel names, titles, and company name
+\renewcommand{\principalone}{} %first operator of \companyname
+\renewcommand{\principaltwo}{} %second operator of \companyname
+\renewcommand{\companyname}{[name of your oranization]} %name of company or individual generating agreement
+\renewcommand{\preparer}{[person who prepared the document]} %name of person who prepared agreement
+\renewcommand{\signatory}{[person who signs]} %person within \ludu that will be signing this agreement
+%-------------------------------------------------------
+% LUDUREL CONTACT INFO
+%-------------------------------------------------------
+
+%YOUR ADDRESS
+\renewcommand{\companyaddress}{[full address of your company]}
+\renewcommand{\companycity}{[city of company]}
+\renewcommand{\companystate}{[state of company]}
+\renewcommand{\companyZIP}{[ZIP code of company]}
+\renewcommand{\companycountry}{[The United States of America]}
+\renewcommand{\companyphone}{[phone number of company]}
+
+%YOUR EMAILS
+\renewcommand{\companyemail}{primary email address of company}
+\renewcommand{\principaloneemail}{[email of first principal]}
+\renewcommand{\principaltwoemail}{[email of second principal]}
+
+%WEBSITES
+\renewcommand{\companywebsite}{[company website]}
+\renewcommand{\companyGithub}{[company github URL]}
+
+%———————————————————————————————————————
+% CLIENT INFORMATION
+%———————————————————————————————————————
+% CLIENT NAME
+\renewcommand{\clientbusinessname}{[Client's Business Name]} %incorporated  business name of client
+\renewcommand{\clientname}{[Point of Contact]}  %Name of individual at Client that we will be dealing with
+
+% Counter Party's Contact Information
+\renewcommand{\clientaddress}{[Full client address]}
+\renewcommand{\counterpartycity}{[Counter Party city]}
+\renewcommand{\counterpartystate}{[counter party state]}
+\renewcommand{\counterpartyZIP}{[counter party zip code]}
+\renewcommand{\counterpartycountry}{[counter party country]}
+
+%———————————————————————————————————————
+% CONTRACT INFORMATION
+%———————————————————————————————————————
+
+% EFFECTIVE DATE AND OTHER DATES
+\renewcommand{\contracttitle}{} % Name of Agreement i.e., "Service Agreement" or "Simple Agreement for Future Equity"
+\renewcommand{\effectivedate}{} % Generally \today but may also be future- or post-dated in some instances; all date formats allowed
+\renewcommand{\terminationdate}{}
+
+%———————————————————————————————————————
+% END DYNAMIC CONTRACT INFORMATION
+%———————————————————————————————————————
 \usepackage[margin=.8in, paperwidth=8.5in, paperheight=11.0in]{geometry}
 \usepackage{enumitem}
   \newlist{longenum}{enumerate}{5}
@@ -9,6 +70,9 @@
   \setlist[longenum,4]{label=(\roman*)}
   \setlist[longenum,5]{label=(\alph*)}
 \usepackage[usenames,svgnames]{xcolor}
+%———————————————————————————————————————
+% FANCY HEADER
+%———————————————————————————————————————
 \usepackage{fancyhdr}
     \pagestyle{fancy}
     \fancyhf{} %clears contents of standard header and footer to make space for following fancy parameters
@@ -16,7 +80,7 @@
     \headheight 25pt %states height of footer; if this figure grows too large, it may push the parbox down the page and correspondingly cut off the footer
     \renewcommand{\headrulewidth}{2pt}
     \rhead{Services Agreement}
-    \lhead{\large{\textbf{Ludurel}}}
+    \lhead{\large{\textbf{\companyname}}}
     \footskip = 4ex %states the distance between the bottom of the text (parbox) and the beginning of footer content
 	\rfoot{Page \thepage}
 	\cfoot{\textcopyright \hspace{.25em} 2018 Ludurel}
@@ -30,11 +94,11 @@
 	pdfmenubar=true,        % show Acrobat menu?
 	pdffitwindow=false,     % window fit to page when opened
 	pdfstartview={FitH},    % fits the width of the page to the window
-	pdftitle={Services Agreement},    % title
-	pdfauthor={swaevior},     % author
+	pdftitle={\contracttitle},    % title
+	pdfauthor={\preparer},     % author
 	pdfsubject={},   % subject of the document
-	pdfcreator={swaevior},   % creator of the document
-	pdfproducer={swaevior}, % producer of the document
+	pdfcreator={\preparer},   % creator of the document
+	pdfproducer={\preparer}, % producer of the document
 	pdfkeywords={}, % list of keywords
 	pdfnewwindow=true,      % links in new window
 	colorlinks=true,        % false: boxed links; true: colored links
@@ -45,9 +109,9 @@
 }
 
 
-%-----------------------------------------------------------
-%	TITLE PAGE
-%----------------------------------------------------------
+%———————————————————————————————————————
+% TITLE PAGE
+%———————————————————————————————————————
 \begin{document}
 
 \vspace*{\fill} % Add whitespace above to center the title page content
@@ -58,25 +122,23 @@
 
 \small\textit{{between}}
 
-{\Large Ludurel}
+{\Large \companyname}
 
 \small\textit{{and}}
 
-{\LARGE\textbf{CLIENT}}\\
+{\LARGE\textbf{\clientname}}\\
 
 \vspace{5ex}
 Prepared by\\
 \vspace{2ex}
-sb swae
+\preparer
 \vspace{2ex}
 
-9 Groveland Street
+\companyaddress
 
-Battle Creek, Michigan, 49017
+\companyphone
 
-+1 269.389.0082
-
-finance@gamerammo.io
+\companyemail
 
 https://gamerammo.io
 
@@ -92,7 +154,7 @@ https://gamerammo.io
 %———————————————————————————————————————
 % DELIVERABLES SECTION
 %———————————————————————————————————————
-\newcommand{\deliverables}{
+{\deliverables}{
 \section{Deliverables}
 
 \ludu agrees to deliver to the You a website consisting of the following components:
