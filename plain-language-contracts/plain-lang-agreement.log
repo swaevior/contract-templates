@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 01:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 01:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -26,44 +26,44 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (./plain-lang-lib.tex
 
-./plain-lang-lib.tex:98: LaTeX Error: Command \maketitle already defined.
+./plain-lang-lib.tex:99: LaTeX Error: Command \maketitle already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 }
+l.99 }
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./plain-lang-lib.tex:357: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:172: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 }
+l.172 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:357: Missing number, treated as zero.
+./plain-lang-lib.tex:172: Missing number, treated as zero.
 <to be read again> 
-                   n
-l.357 }
+                   q
+l.172 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:357: Missing control sequence inserted.
+./plain-lang-lib.tex:172: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.357 }
+l.172 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -71,26 +71,280 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:357: You already have nine parameters.
-\reserved@a ... \def \expandafter c\reserved@b #10
-                                                  n{
-l.357 }
+./plain-lang-lib.tex:172: You already have nine parameters.
+\reserved@a ... \def \expandafter r\reserved@b #10
+                                                  q{
+l.172 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:357: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:172: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 }
+l.172 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Runaway argument?
+./plain-lang-lib.tex:172: Paragraph ended before \ref was complete.
+<to be read again> 
+                   \par 
+l.172 }
+       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+LaTeX Warning: Reference `.' on page 1 undefined on input line 172.
+
+
+./plain-lang-lib.tex:314: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./plain-lang-lib.tex:314: Missing number, treated as zero.
+<to be read again> 
+                   g
+l.314 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./plain-lang-lib.tex:314: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.314 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./plain-lang-lib.tex:314: You already have nine parameters.
+\reserved@a ... \def \expandafter r\reserved@b #10
+                                                  g{
+l.314 }
+       
+I'm going to ignore the # sign you just used.
+
+
+./plain-lang-lib.tex:314: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./plain-lang-lib.tex:322: Missing number, treated as zero.
+<to be read again> 
+                   a
+l.322 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./plain-lang-lib.tex:322: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.322 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./plain-lang-lib.tex:322: You already have nine parameters.
+\reserved@a ... \def \expandafter c\reserved@b #10
+                                                  a{
+l.322 }
+       
+I'm going to ignore the # sign you just used.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+./plain-lang-lib.tex:322: Undefined control sequence.
+<argument> ...nd. The total price of \projectcost 
+                                                  , outlined on \ref of this...
+l.322 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `o' on page 1 undefined on input line 322.
+
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Requirements}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Content}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.1}Copy}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.2}Visuals}{1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.3}Documentation
+}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Rights Reserved}{1}}
+]
+
+./plain-lang-lib.tex:322: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+LaTeX Warning: Reference `o' on page 2 undefined on input line 322.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+./plain-lang-lib.tex:412: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./plain-lang-lib.tex:412: Missing number, treated as zero.
+<to be read again> 
+                   n
+l.412 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./plain-lang-lib.tex:412: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.412 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./plain-lang-lib.tex:412: You already have nine parameters.
+\reserved@a ... \def \expandafter c\reserved@b #10
+                                                  n{
+l.412 }
+       
+I'm going to ignore the # sign you just used.
+
+
+./plain-lang-lib.tex:412: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.412 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./plain-lang-lib.tex:420: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.420 }
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./plain-lang-lib.tex:420: Missing number, treated as zero.
+<to be read again> 
+                   r
+l.420 }
+       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./plain-lang-lib.tex:420: Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.420 }
+       
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+./plain-lang-lib.tex:420: You already have nine parameters.
+\reserved@a ... \def \expandafter t\reserved@b #10
+                                                  r{
+l.420 }
+       
+I'm going to ignore the # sign you just used.
+
+
+./plain-lang-lib.tex:420: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.420 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ) (./services.tex)
+Runaway argument?
+{ \subsection *{Copy Editing} Copy Editing: 4-5 cents per word or \$5\ETC.
+./plain-lang-agreement.tex:4: File ended while scanning use of \@argdef.
+<inserted text> 
+                \par 
+l.4 \input{services.tex}
+                        
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 
 ./plain-lang-agreement.tex:47: LaTeX Error: \clientcity undefined.
 
@@ -470,17 +724,15 @@ LaTeX Info: Redefining \nameref on input line 146.
 \@outlinefile=\write3
 \openout3 = `plain-lang-agreement.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 180.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 160.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 180.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 160.
+ [2] [3]
 ./plain-lang-agreement.tex:188: Undefined control sequence.
 \deliverables ...ection {Deliverables} \par \ludu 
                                                   agrees to deliver to the Y...
@@ -534,32 +786,46 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-[2]
+[4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
  (./plain-lang-agreement.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
-Package rerunfilecheck Info: File `plain-lang-agreement.out' has not changed.
-(rerunfilecheck)             Checksum: B6CB30D0A2773B3371098D0D45052AE0;94.
+
+
+Package rerunfilecheck Warning: File `plain-lang-agreement.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `plain-lang-agreement.out':
+(rerunfilecheck)             Before: 77BC3926611FFFEFC485009276BA1F64;94
+(rerunfilecheck)             After:  41D41FFEC6C1E299420EBA6CB3F15B0C;94.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
  ) 
 Here is how much of TeX's memory you used:
- 6360 strings out of 492995
- 93730 string characters out of 6132704
- 216260 words of memory out of 5000000
- 9880 multiletter control sequences out of 15000+600000
- 7266 words of font info for 26 fonts, out of 8000000 for 9000
+ 6386 strings out of 492995
+ 94009 string characters out of 6132704
+ 220995 words of memory out of 5000000
+ 9902 multiletter control sequences out of 15000+600000
+ 7574 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,14n,43p,767b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on plain-lang-agreement.pdf (2 pages, 61015 bytes).
+ 31i,15n,43p,767b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on plain-lang-agreement.pdf (4 pages, 81560 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

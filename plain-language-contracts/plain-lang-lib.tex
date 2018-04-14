@@ -52,6 +52,7 @@
 \newcommand{\contracttitle}{[Title of Contract]}
 \newcommand{\effectivedate}{[date]}
 \newcommand{\terminationdate}{[date]}
+\newcommand{\depositamount}{}
 
 %-----------------------------------------------------------
 %	TITLE PAGE FORMATTING
@@ -112,9 +113,9 @@ On behalf of \clientbusinessname, \clientname wishes to engage \ludu for develop
 Dated as of \today (the \textbf{``Effective Date''}), this Agreement is made and entered by and between Us and You with the intention of being legally bound by the contents of this Agreement. Collectively, We and You may be each individually and collectively called \textbf{``Parties''} in this contract.
 }
 
-%----------------------------------------------------------------------------------------
-%	DELIVERABLES SECTION
-%----------------------------------------------------------------------------------------
+%———————————————————————————————————————
+% DELIVERABLES SECTION
+%———————————————————————————————————————
 \newcommand{\deliverables}{
 \section{Deliverables}
 
@@ -136,9 +137,42 @@ Research\\
 You have supplied more detailed specifications to us in writing via email. You are welcome to make any changes to the specifications for deliverables provided that You also approve any changes We may need to make to our estimate and/or retainer. Any work outside of the scope of the website (including limimted maintenance) and the services mentioned above will be subject to a separate contract.
 }
 
-%-------------------------------------------------------------
-%	CONFIDENTIAL INFORMATION SECTION
-%-------------------------------------------------------------
+%———————————————————————————————————————
+% REQUIREMENTS SECTION
+%———————————————————————————————————————
+\newcommand{requirements}{
+  \section{Requirements}
+  Details pertaining to the requirements that you must satisfy in order for us to successfully execute this Agreement.
+    \subsection{Content}
+      \subsubsection{Copy}
+      Unless we have previously or separately agreed, We are not responsible for generating copy for your website. We are, however, responsible for uploading, optimizing, and maintaing the copy You provide. We will do this either directly in the backend of the website or via the custom Content Management System that we provide to You.
+
+      We will continue to maintain the copy as long as you maintain adhere to the payment details and schedule laid out in \ref
+
+      Upon request from you for an update or upload to be made to the Content Management System, We agree to successfully execute your request within 30 hours.
+
+      We may adjust the content you provide Us such that adheres to current search engine optimization (SEO) best practices. If We do so, We will contact You for your approval before making the content public.
+
+      In order to properly maintain and launch a successful development arm, We may ask to act on your behalf on various websites including, but not limited to, github.com.
+
+      We make a point to obligate ourselves to uphold the values of your business and to properly present and maintain the image that You wish to portray to your customers. If, at any point in time, you disagree with the way that We have acted, We will delete the content within 24 hours, and publicly take ownership for the mistake using our own online account(s). In the event that you wish to have new content generated to replace the mistake, We provide professional copywriting and editing services and We can provide a separate estimate for that.
+      \subsubsection{Visuals}
+      You agree to supply Us with high-quality graphic files in an editable, digital format. We prefer .png or .eps. You will supply photographs in the highest resolution digital format possible. You will supply video files in the highest quality digital format possible. We prefer .mp4, .mpg, or .swf files.
+
+      If you choose to purchase stock photos, videos, or graphics, we can suggest stock libraris for you to browse. We provide Permissions Collection and Management services that You may find useful if you have existing stock imagery or wish to acquire new stock imagery.
+
+      If You'd like Us to provide photography, videography, or graphic design services for you, We can provide a separate estimate for that.
+
+      \subsubsection{Documentation}
+      We are not responsible for generating documentation for the website. We are, however, responsible for uploading and maintaining the documentation you provide for the website into the custom Content Management Sytem that We provide to you. We will continue to do so as long as you adhere to the payment schedule and details outlined in \ref.
+
+      Upon request from you for an update or upload to made to the Content Mangaement System, We agree to successfully execute your request within 30 hours.
+
+      In order to properly launch and maintain a successful online marketing campaign, We may ask to act upon your behalf on websites such as, but not limited to, github.com.
+}
+%———————————————————————————————————————
+% CONFIDENTIAL INFORMATION SECTION
+%———————————————————————————————————————
 \newcommand{\confidentialinformation}{
 \section{Confidentiality}\label{confidential-information}
     \subsection{Definition of Confidential Information}
@@ -263,7 +297,28 @@ You have supplied more detailed specifications to us in writing via email. You a
 %-----------------------------------------------------
 \newcommand{\limitationofliability}{
   \section{Limitation of Liability}
-  Your and our total compensation obligation under this Agreement cannot exceed thirty-three percent (33\%) of the amount that We have billed to You in the last tweleve months for the applicable service. Neither Party has any compensation, contribution, or other obligation for consequential, punitive, incidental, indirect, or exemplary losses (inlcuding, but not limited to, profit or revenue loss, capital costs, replacement costs and increased operating costs).
+
+  We can’t guarantee that our work will be error-free and therfore we can’t be liable to You or any third-party for damages, including but not limited to profit or revenue loss, capital costs, replacement costs and increased operating costs or other incidental, consequential or special damages, even if you’ve advised Us of them.
+
+  Your total compensation liability to Us under this Agreement cannot exceed thirty-three percent (33\%) of the amount that We have billed to You in the last tweleve months for the applicable service.
+
+  Neither Party has any compensation, contribution, or other obligation for consequential, punitive, incidental, indirect, or exemplary losses (inlcuding, but not limited to, profit or revenue loss, capital costs, replacement costs and increased operating costs).
+}
+
+%———————————————————————————————————————
+% RIGHTS RESERVED
+%———————————————————————————————————————
+\newcommand{rightsreserved}{
+\section{Rights Reserved}
+We reserve the right to display all aspects of our creative work, including sketches, work-in-progress designs and the completed projects in our portfolio and refer to them on the Internet, in magazine articles, other printed materials, and in interviews.
+}
+%———————————————————————————————————————
+% CHANGES TO THE PROJECT
+%———————————————————————————————————————
+\newcommand{changestotheproject}{
+However, we don’t want to limit your ability to change your mind. The total price of \projectcost, outlined on \ref of this contract are the standard rates that We charge for taking on such a multi-faceted project.
+
+We will create separate estimates for any services at your request. We will continue to work with You until We accomplish everything You’ve told Us you want to achieve in the time frame specified in \ref of this Agreement, but we are happy to be flexible. If You want to change your mind or add anything new, that won’t be a problem. If any changes or additions that You would like to make result in Us being unable to complete a project in the alloted time, it may require additional billing and payment.
 }
 %-------------------------------------------------------------
 %	ARBITRATION SECTION
@@ -354,6 +409,20 @@ You have supplied more detailed specifications to us in writing via email. You a
     \subsection*{By Post} % Suppress section numbering with the *
     \companyaddress
 
+}
+%———————————————————————————————————————
+% TERMINATION EVENT
+%———————————————————————————————————————
+
+\newcommand{terminationevent}{
+\section{Termination Event}
+If, at any stage, You change your mind about what You want to be delivered or are not happy with the direction our work is heading, You may terminate this contract by written notice. You also agree to pay our non-refundable \depositamount deposit and are not obligated to furnish further payments.
+}
+%———————————————————————————————————————
+% WARRANTY
+%———————————————————————————————————————
+\newcommand{\warranty}{
+We affirm that We are qualified and capable of performing all of the agreed-upon services in accordance with good industry practice and at the standard expected from a suitably qualified organization with relevant experience.
 }
 %------------------------------------------------------------
 %	SIGNATURE PAGE

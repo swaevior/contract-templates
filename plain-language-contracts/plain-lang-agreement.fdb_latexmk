@@ -1,6 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1523682171 "plain-lang-agreement.tex" "plain-lang-agreement.pdf" "plain-lang-agreement" 1523682171
+["pdflatex"] 1523685467 "plain-lang-agreement.tex" "plain-lang-agreement.pdf" "plain-lang-agreement" 1523685467
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1480098701 1288 655e228510b4c2a1abe905c368440826 ""
@@ -8,6 +9,7 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1480098701 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1480098701 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1480098733 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1480098733 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1480098733 32734 69e00a6b65cedb993666e42eedb3d48f ""
@@ -47,13 +49,13 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "plain-lang-agreement.aux" 1523681871 901 32e3613509308473cec56c9f3d01cb5b ""
-  "plain-lang-agreement.out" 1523681871 94 b6cb30d0a2773b3371098d0d45052ae0 ""
+  "plain-lang-agreement.aux" 1523682655 980 6eecb894b07e129bff0e340f2d8f7ad4 ""
+  "plain-lang-agreement.out" 1523682655 94 77bc3926611fffefc485009276ba1f64 ""
   "plain-lang-agreement.tex" 1523682171 9807 44285db656c6fa6240fc12ddd61c2544 ""
-  "plain-lang-lib.tex" 1523681871 28103 6e9c7bcfeb51c49678713f6f1e4b4099 ""
-  "services.tex" 1523675584 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "plain-lang-lib.tex" 1523685466 34882 48fe29931ae520d3167433e28246a7f3 ""
+  "services.tex" 1523682228 11293 a3257c35aff5629b3583f6bed27258c6 ""
   (generated)
-  "plain-lang-agreement.pdf"
   "plain-lang-agreement.log"
-  "plain-lang-agreement.out"
   "plain-lang-agreement.aux"
+  "plain-lang-agreement.pdf"
+  "plain-lang-agreement.out"

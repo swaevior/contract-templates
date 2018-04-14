@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 00:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 01:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -16,15 +16,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 }
+l.172 }
         
 Here is how much of TeX's memory you used:
- 65 strings out of 492995
- 1244 string characters out of 6132704
- 70143 words of memory out of 5000000
- 3716 multiletter control sequences out of 15000+600000
+ 49 strings out of 492995
+ 989 string characters out of 6132704
+ 55084 words of memory out of 5000000
+ 3700 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 9i,0n,9p,810b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9i,0n,9p,649b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 !  ==> Fatal error occurred, no output PDF file produced!
