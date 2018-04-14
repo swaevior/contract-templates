@@ -1,0 +1,367 @@
+%-------------------------------------------------------------
+%	DYNAMIC CONTRACT INFORMATION
+%-------------------------------------------------------------
+
+%COMPANY INFORMATION
+% Personnel names, titles, and company name
+\newcommand{\CFO}{} %chief financial officer of \companyname
+\newcommand{\CEO}{} %chief executive officer of \companyname
+\newcommand{\COO}{} %chief operating officer of \companyname{}
+\newcommand{\companyname}{[Company Name]} %name of company or individual generating agreement
+\newcommand{\preparer}{[Preparer]} %name of person who prepared agreement
+\newcommand{\signatory}{[Person who signs contract]} %person within \companyname that will be signing this agreement
+%-------------------------------------------------------
+% COMPANY CONTACT INFO
+%-------------------------------------------------------
+
+%ADDRESS
+\newcommand{\companyaddress}{[street and house number of company]}
+\newcommand{\companycity}{[city of company]}
+\newcommand{\companystate}{[state of company]}
+\newcommand{\companyZIP}{[ZIP code of company]}
+\newcommand{\companycountry}{The United States of America}
+\newcommand{\companyphone}{phone number of company}
+
+%EMAILS
+\newcommand{\companyemail}{\href{mailto:}{}
+
+
+
+%WEBSITE
+\newcommand{\companywebsite}{\url{https://nytimes.com}}}
+\newcommand{\companyGithub}{\url{https://github.com}}
+
+
+%-------------------------------------------------------
+% COUNTERPARTY INFORMATION
+%-------------------------------------------------------
+
+% COUNTERPARTY NAME
+\newcommand{\counterpartyname}{[Counter Party's Given Name]}
+\newcommand{\counterpartytitle}{[Name Of Counter Party in Contract]}
+
+% Counter Party's Contact Information
+\newcommand{\counterpartyaddress}{[Counter Party Address]}
+\newcommand{\counterpartycity}{[Counter Party city]}
+\newcommand{\counterpartystate}{[counter party state]}
+\newcommand{\counterpartyZIP}{[counter party zip code]}
+\newcommand{\counterpartycountry}{[counter party country]}
+
+%-------------------------------------------------------
+% CONTRACT INFORMATION
+%-------------------------------------------------------
+
+% EFFECTIVE DATE AND OTHER DATES
+\newcommand{\contracttitle}{[Title of Contract]}
+\newcommand{\effectivedate}{[date]}
+\newcommand{\terminationdate}{[date]}
+
+
+%-----------------------------------------------------------
+%	TITLE PAGE FORMATTING
+%----------------------------------------------------------
+
+\renewcommand{\maketitle}{
+\begin{titlepage}
+
+\vspace*{\fill} % Add whitespace above to center the title page content
+
+\begin{center}
+
+{\huge \textbf{\companyname}}
+
+{\Large \contracttitle}
+
+\small{with}
+
+{\LARGE\textbf{\counterpartyname}}\\
+
+\vspace{5ex}
+Prepared: \effectivedate\\
+\vspace{2ex}
+\small{by}\\
+\vspace{2ex}
+\preparer\\
+\vspace{2ex}
+
+\companyaddress
+
+\companycity, \companystate \companyZIP
+
+\companycountry
+
+\companyphone
+
+\swaevioremail
+
+\companywebsite
+
+\companyGithub
+
+\end{center}
+
+\vspace*{\fill} % Add whitespace below to center the title page content
+
+\end{titlepage}
+}
+
+%-------------------------------------------------------------
+%	PREAMBLE SECTION
+%-------------------------------------------------------------
+\newcommand{\preamble}{
+
+\section{Preamble}
+THIS \contracttitle (this \textbf{``Agreement''}), dated as of \effectivedate, (the \textbf{``Effective Date''}) is made and entered by and between \companyname, a \companystate-registered corporation (the \textbf{``Company''}), and \counterpartyname, the \textbf{``\counterpartytitle''}, with their principal place of business in \counterpartyaddress, \counterpartycity, \counterpartystate, \counterpartyZIP, \counterpartycountry, each collectively and separately referred to herein as \textbf{``Party''} or \textbf{``Parties''}.
+}
+%-------------------------------------------------------------
+%	RECITALS SECTION
+%-------------------------------------------------------------
+\newcommand{\recitals}{
+
+WHEREAS
+
+WHEREAS
+
+WHEREAS
+
+NOW, THEREFORE, in consideration of the foregoing and the mutual covenants and agreements hereinafter set forth and intending to be legally bound hereby, \companyname and the \counterpartytitle agree as follows:
+}
+
+%-------------------------------------------------------------
+%	CONFIDENTIAL INFORMATION SECTION
+%-------------------------------------------------------------
+\newcommand{\confidentialinformation}{
+\section{Confidentiality}\label{confidential-information}
+    \subsection{Definition of Confidential Information}
+    \textbf{``Confidential Information''} means any information (including any and all combinations of individual items of information) that relates to the actual or anticipated business and/or products, research or development of the \companyname{}, its affiliates or subsidiaries, or to the \companyname’s, its affiliates’ or subsidiaries’ technical data, trade secrets, or know-how, including, but not limited to, research, product plans, or other information regarding the \companyname’s, its affiliates’ or subsidiaries’ products or services and markets therefore, customer and vendor lists and customers and vendors (including, but not limited to, customers and vendors of the \companyname on whom \counterpartytitle called or with whom \counterpartytitle became acquainted during the term of this Agreement), software, developments, inventions, discoveries, ideas, processes, formulas, technology, designs, drawings, engineering, hardware configuration information, marketing, finances, and other business information disclosed by the \companyname, its affiliates or subsidiaries, either directly or indirectly, in writing, orally or by drawings or inspection of premises, parts, equipment, or other property of \companyname, its affiliates or subsidiaries. Notwithstanding the foregoing, Confidential Information shall not include any such information which \counterpartytitle can establish (i) was publicly known or made generally available prior to the time of disclosure to \counterpartytitle; (ii) becomes publicly known or made generally available after disclosure to \counterpartytitle through no wrongful action or inaction of \counterpartytitle; or (iii) is in the rightful possession of \counterpartytitle, without confidentiality obligations, at the time of disclosure as shown by \counterpartytitle’s then-contemporaneous written records; provided that any combination of individual items of information shall not be deemed to be within any of the foregoing exceptions merely because one or more of the individual items are within such exception, unless the combination as a whole is within such exception.
+
+    \subsection{Nonuse and Nondisclosure}\label{nondisclosure}
+    During and after the term of this Agreement, \counterpartytitle will hold in the strictest confidence and take all reasonable precautions to prevent any unauthorized use or disclosure of Confidential Information. \counterpartytitle will not:
+      \begin{enumerate}
+        \item use the Confidential Information for any purpose whatsoever other than as necessary for the performance of the Services on behalf of the \companyname; or
+        \item disclose the Confidential Information to any third party without the prior written consent of an authorized representative of \companyname.
+      \end{enumerate}
+      \counterpartytitle shall not use or disclose any \companyname property, intellectual property rights, trade secrets or other proprietary know-how of the \companyname to invent, author, make, develop, design, or otherwise enable others to invent, author, make, develop, or design identical or substantially similar designs as those developed under this Agreement for any third party.
+
+    \subsection{Personally Identifying Information}
+    The terms and provisions relating to nonuse and nondisclosure discussed in Subsection \ref{nondisclosure} shall also be extended to any Personally Identifiable Information that is also stored, accessed, transmitted, or received by \counterpartytitle on behalf of \companyname.
+
+    \textbf{``Personally Identifiable Information''} or \textbf{``PII''} means the information concerning a natural person which can be used to uniquely identify, contact, or locate that person.
+}
+
+%-------------------------------------------------------------
+%	OWNERSHIP
+%-------------------------------------------------------------
+\newcommand{\ownershipofCI}{
+\section{Ownership of Confidential Information and PII}
+    \counterpartytitle agrees that no ownership of Confidential Information is conveyed to the \counterpartytitle. Further, \counterpartytitle agrees that any work, material, or information derived from Confidential Information or PII shall remain the sole property of \companyname.
+}
+%-------------------------------------------------------------
+%	RETURN OF COMPANY MATERIALS SECTION
+%-------------------------------------------------------------
+\newcommand{\returnofcompanymaterials}{
+    \section{Return of Company Materials}
+    All documents and other tangible objects containing or representing Confidential Information or PII and all copies thereof which are in the possession of the \counterpartytitle shall be and remain the property of the \companyname and shall be promptly returned to \companyname upon \companyname’s written request.
+}
+%-------------------------------------------------------------
+%	SECURITY OBLIGATIONS SECTION
+%-------------------------------------------------------------
+\newcommand{\securityobligations}{
+    \section{Security Obligations of \counterpartytitle}
+    \counterpartytitle shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of \companyname. \counterpartytitle shall carefully restrict access to Confidential Information and PII to employees, contractors, and third parties as is reasonably required and shall require those persons to sign nondisclosure restrictions at least as protective as those in this Agreement. \counterpartytitle shall not, without prior written approval of \companyname, use for \counterpartytitle's own benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of \companyname, any Confidential Information or PII. \counterpartytitle shall return to \companyname any and all records, notes, passwords, and other written, printed, or tangible materials in its possession pertaining to Confidential Information and PII immediately if \companyname so requests in writing.
+}
+%--------------------------------------------------------
+%	ALLOWABLE DISCLOSURE SECTION
+%--------------------------------------------------------
+\newcommand{\allowabledisclosure}{
+    \section{Allowable Disclosure to Third Parties}\label{allowable-disclosure}
+    Without limiting the foregoing, \counterpartytitle may disclose Confidential Information or PII to any third party on a need-to-know basis for the purposes of \counterpartytitle performing any Services (as defined herein or elsewhere in contractual agreements between \companyname and \counterpartytitle) for \companyname; provided, however, that such third party is subject to written non-use and non-disclosure obligations at least as protective of \companyname, the Confidential Information, and PII as least as protective of those contained in this Agreement and that \counterpartytitle promptly notifies \companyname of the disclosure of Confidential Information or PII pursuant to the terms set forth in Section \ref{notification-of-disclosure}.
+}
+%-------------------------------------------------------------
+%	OBLIGATION TO DISCLOSE SECTION
+%-------------------------------------------------------------
+\newcommand{\obligationtodisclose}{
+    \section{Obligation to Disclose}\label{obligation-to-disclose}
+    \counterpartytitle may also disclose Confidential Information to the extent compelled by applicable law; provided, however, prior to such disclosure, \counterpartytitle shall provide prior written notice to \companyname pursuant to Section \ref{notification-of-disclosure} and seek a protective order or such similar confidential protection as may be available under applicable law.
+}
+%---------------------------------------------------------
+%	NOTIFICATION OF BREACH OR DISCLOSURE SECTION
+%---------------------------------------------------------
+\newcommand{\notificationofbreach}{
+    \section{Notification in the Event of Breach or Other Disclosure of Confidential Information or PII}\label{notification-of-disclosure}
+    The \counterpartytitle will immediately notify \companyname in writing upon discovery of any:
+        \begin{enumerate}
+            \item unauthorized disclosure of the Confidential Information or PII;
+            \item loss, unauthorized possession, use, or knowledge of the Confidential Information or PII; or
+            \item breach of this Agreement by the \counterpartytitle.
+        \end{enumerate}
+
+        \subsection{Notice Requirements} The notice must fully detail such loss, unauthorized possession, use, or knowledge of Confidential Information or PII.
+
+        \subsection{Cooperation}
+        The \counterpartytitle will cooperate with \companyname in any reasonable fashion in order to assist \companyname  to regain possession of the Confidential Information or PII and prevent its further unauthorized use or disclosure.
+}
+%---------------------------------------------------------
+%	INDEMNIFICATION SECTION
+%---------------------------------------------------------
+\newcommand{\ciindemnification}{
+    \section{Indemnification}\label{indemnification}
+        \subsection{Indemnification Obligation}
+        Subject to paragraph \ref{notice-and-failure-to-notify}, the \counterpartytitle shall indemnify \companyname against all losses suffered by \companyname and arising out of the \counterpartytitle or its Representative's
+        \begin{enumerate}
+            \item unauthorized or improper use or disclosure of any Confidential Information or PII;
+            \item breach of its obligations under this agreement; or
+            \item misconduct or negligence.
+        \end{enumerate}
+        \subsection{Notice and Failure to Notify}
+            \subsubsection{Notice Requirement} Before bringing a claim for indemnification, the indemnified party shall:
+            \begin{enumerate}
+                \item notify the indemnifying party of the indemnifiable proceeding; and
+                \item deliver to the indemnifying party all legal pleadings and other documents reasonably necessary to indemnify or defend the indemnifiable proceeding.
+            \end{enumerate}
+            \subsubsection{Failure to Notify}
+            If the indemnified Party fails to notify the indemnifying Party of the indemnifiable proceeding, the indemnifying Party will be relieved of its indemnification obligations to the extent that it was prejudiced by the indemnified Party's failure.
+}
+%---------------------------------------------------------
+%	NONDISCLOSURE TERM SECTION
+%---------------------------------------------------------
+\newcommand{\termofnondisclosure}{
+    \section{Duration of Nondisclosure and Related Provisions}
+        \subsection{Term of Agreement} This Agreement shall endure for a period of three (3) years, after which it may be renewed by the written agreement of both Parties.
+        \subsection{Term of Nonuse and Nondisclosure}Notwithstanding the foregoing, Sections \ref{confidential-information}, \ref{allowable-disclosure}, \ref{obligation-to-disclose}, \ref{notification-of-disclosure}, and \ref{indemnification} shall survive the termination or expiry of this Agreement and \counterpartytitle's duty to hold Confidential Informationand PII in confidence shall remain in effect until (i) the Proprietary Information no longer qualifies as a trade secret; (ii) until \companyname sends \counterpartytitle written notice releasing \counterpartytitle from this Agreement; or (iii) or after five (5) years from the Effective Date, whichever occurs first.
+        \subsection{Term of Agreement for PII}
+        Confidentiality obligations regarding PII under this Agreement shall remain in effect so long as \counterpartytitle can access, store, transmit, receive, or disclose the PII.
+}
+
+%------------------------------------------------------
+%	CONFIDENTIAL INFORMATION RELIEF SECTION
+%-----------------------------------------------------
+
+\newcommand{\reliefCI}{
+    \section{Relief}
+    \counterpartyname understands and agrees that any use or dissemination of Confidential Information or PII in violation of this Agreement may cause \companyname irreparable harm, that monetary damages may not be a sufficient remedy for unauthorized use or disclosure of Confidential Information or PII, and that Company may be left with no adequate remedy at law; therefore, \companyname shall be entitled, without waiving any other rights or remedies, to such injunctive or equitable relief as may be deemed proper by a court of proper jurisdiction. Such remedies shall not be deemed to be the exclusive remedy for any breach of this Agreement but shall be in addition to all other remedies available at law or in equity.
+}
+
+%-------------------------------------------------------------
+%	RELATIONSHIPS SECTION
+%------------------------------------------------------------
+
+\newcommand{\norelationship}{
+    \section{No Relationship}
+    Nothing contained in this Agreement shall be deemed to constitute either Party a partner, joint venturer, nor employee of the other Party for any purpose.
+}
+
+%-------------------------------------------------------------
+%	Governing Law SECTION
+%-------------------------------------------------------------
+
+\newcommand{\governinglaw}{
+    \section{Governing Law}\label{governing-law}
+    The validity, interpretation, construction, and performance of this Agreement will be governed by and construed in accordance with the substantive laws of the State of \companystate, \companycountry without giving effect to the principles of conflict of laws of such State.
+}
+%-------------------------------------------------------------
+%	ARBITRATION SECTION
+%-------------------------------------------------------------
+
+\newcommand{\consenttoarbitration}{
+
+    \section{Consent to Arbitration}\label{arbitration}
+        \subsection{}
+        \textsc{\counterpartytitle hereby waives their right to a jury trial and acknowledges that, in the absence of this provision, they would be able to sue in court. this waiver is intended to have a scope that encompasses any and all disputes that might be filed in any court and that are related to this agreement, including, without limit, claims of tort, contract, statutory and other common law natures.}
+        \subsection{}
+        Should there arise any controversy, claim, or dispute relating to this Agreement or the interpretation, termination, updating, enforcement, breach, or general validity thereof, any determination related to the scope or application of this Agreement shall be determined by arbitration in \companycity, \companystate, \companycountry, before one sole arbitrator. The judgment from the arbitration award or decision may be entered in any relevant court that has jurisdiction. This clause does not prevent the parties from seeking provisional measures in service of arbitration from a court of relevant authority.
+        \subsection{}
+        The Arbitrator shall be selected and the hearing conducted under the rules of the American Arbitration Association (the \textbf{``AAA''}). During the life of this Agreement, the Parties may mutually agree to use the Federal Mediation and Conciliation Service of the United States of America for such purposes or a system where the Arbitrator is selected from a mutually agreed upon panel of Arbitrators.
+        \subsection{}
+        The expenses and fees as billed by the Arbitrator shall be borne by the losing Party. The filing fee shall be paid by the losing Party. The expenses of a hearing reporter shall be borne by the party requesting the reporter unless the Parties jointly agree to share such costs.
+        \subsection{}
+        A monetary award may be made for attorney or witness fees arising out of, or attributable to, the grievance appeal.
+        \subsection{}
+        The Parties may propose consolidation of grievance arbitration cases for arbitration hearings where such cases concern similar issues. The Parties will continue to discuss expedited grievance arbitration or mediation procedure, as well as the types of cases which will be subject to such expedited procedure.
+        \subsection{}
+        The Arbitrator shall only have the authority to determine compliance with the provisions of the Agreement. The Arbitrator shall be the judge of the relevance and materiality of the evidence offered and conformity to the legal rules of evidence shall not be necessary. The Arbitrator shall not make any award which in effect would grant the \counterpartytitle or \companyname any rights or privileges which were not obtained or preserved in the contract provisions.
+        \subsection{}
+        The decision of the Arbitrator will be final and binding on all parties to this Agreement and an Arbitration decision shall not be appealable. The written decision of the Arbitrator shall be rendered within 30 calendar days from the closing of the record of the hearing. However, when the Arbitrator declares a bench decision, such decision shall be rendered in writing within 15 calendar days from the date of the Arbitration hearing. A written copy of the decision shall be provided, and, if available from either the Arbitrator or AAA, in electronic format (PDF) and sent to both Parties.
+        \subsection{}
+        Notwithstanding the foregoing, the Parties shall also have the right to initiate an action in a court of proper jurisdiction for injunctive or other reasonable relief while a final decision from the arbitrator is pending.
+        \subsection{}
+        To the furthest extent permissible by law, \counterpartytitle hereby agrees that:
+        \begin{enumerate}
+          \item no arbitration action shall be joined with any other;
+          \item there exists no right for any dispute to be arbitrated as a class-action or to utilize class action mechanisms; and
+          \item there exists no right for any dispute to be brought in a representative capacity on the behalf of the public or any other uninvolved persons.
+        \end{enumerate}
+        Should the provisions of this paragraph be found to be unenforceable, then the controversy, claim or dispute shall be brought before the state or federal courts (the \textbf{``Courts''}) in \companycity, \companystate, \companycountry.
+}
+
+%-------------------------------------------------------------
+%	Severability SECTION
+%-------------------------------------------------------------
+
+\newcommand{\severability}{
+    \section{Severability}
+    If a court or other body of competent jurisdiction finds, or the Parties mutually believe, any provision of this Agreement, or portion thereof, to be invalid or unenforceable, such provision will be enforced to the maximum extent permissible so as to affect the intent of the Parties, and the remainder of this Agreement will continue in full force and effect.
+}
+
+%-------------------------------------------------------------
+%	Entire Agreement SECTION
+%-------------------------------------------------------------
+
+\newcommand{\entireagreement}{
+    \section{Entire Agreement}
+    This Agreement expresses the complete understanding of the Parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings. This Agreement may not be amended except in writing signed by both Parties.
+}
+
+%--------------------------------------------------
+%	WAIVERS SECTION
+%--------------------------------------------------
+
+\newcommand{\waivers}{
+    \section{Waivers}
+    The failure to exercise any right provided in this Agreement shall not be a waiver of prior or subsequent rights. This Agreement and each Party's obligations shall be binding on the representatives, assigns, and successors of such Party. Each Party has signed this Agreement through its authorized representative.
+}
+
+%--------------------------------------------------
+%	NO OBLIGATION SECTION
+%--------------------------------------------------
+
+\newcommand{\noobligation}{
+    \section{No Obligation}
+    Nothing contained in this Agreement shall obligate either Party to proceed with a transaction between them and each Party reserves the right, in its sole discretion, to terminate the discussions.
+}
+
+%------------------------------------------------------------
+%	SIGNATURE PAGE
+%------------------------------------------------------------
+
+\newcommand{\twopartysignaturepage}{
+    \newpage % Put signatures on a separate page
+
+    \section{Acceptance by Signature}
+
+    The undersigned agree to the terms of this Agreement on behalf of themselves, their organization, or their business as of the date written below. This Agreement may be executed in two or more counterparts, each of which shall be deemed an original but all of which together shall constitute one and the same Agreement.
+
+    Signatures may be executed by way of facsimile, email, or electronic signature and shall be considered an original.
+
+    \subsection*{\counterpartytitle} % Suppress section numbering with the *
+    \counterpartyname\\
+    \vspace{3ex}\\
+    \begin{tabular}{lp{10pt}l}
+    Signature: && \hspace{0.35cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Print Name: && \hspace{0.35cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Title: && \hspace{0.35cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Address: && \hspace{0.35cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Email: && \hspace{0.35cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Date: && \hspace{0.35cm} \today
+    \end{tabular}
+    %------------------------------------------------
+    \subsection*{\companyname} % Suppress section numbering with the *
+    \signatory\\
+    \vspace{3ex}\\
+    \begin{tabular}{ l p{10pt} l }
+    Signature: && \hspace{0.5cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Print Name: && \hspace{0.5cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Title: && \hspace{0.5cm} \makebox[4in]{\hrulefill} \\ \\[3pt]
+    Date: && \hspace{0.5cm} \today
+    \end{tabular}
+}

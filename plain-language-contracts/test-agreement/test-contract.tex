@@ -1,0 +1,68 @@
+\documentclass[usletter,11pt]{article} % The default font size is 11pt font on usletter, change to 'a4' for European paper and adjust margins below in {geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.0in]{geometry}
+\input{contract-components.tex} % Calls the contract-components.tex file, a library of legal language
+\usepackage[usenames,svgnames]{xcolor}
+\usepackage{fancyhdr} %loads Fancy Header, which may be used to format the document
+    \pagestyle{fancy}
+    \fancyhf{} %clears contents of standard header and footer to make space for following "fancy" parameters
+    \fancyheadoffset{0cm} %I had to deploy this because my header was not running the full width of the text box; YMMV
+    %-----------------------------------------------------
+    %the following three parameters can be used to makes changes in the event text gets cut off
+    %-----------------------------------------------------
+    \headheight 25pt %states height of header; if this figure grows too large, it may push the text body box down the page and the footer may become cut off
+    \textheight = 600pt %states height of text body of document; default for usletter=609pt
+    \footskip = 8ex %states the distance between the bottom of the main body text box and the beginning of footer content
+    \rhead{\contracttitle} %this and the following line assume maintenance of the {article} document class, which is a single page doc; other classes may require more specific parameters--consult the Fancy Header documentation for more information
+    \lhead{\large{\textbf{\companyname}}}
+    \renewcommand{\headrulewidth}{3pt} %restates the width of the rule line; default=1pt
+    \rfoot{Page \thepage}
+    \cfoot{\textcopyright\hspace{.25em}2018 \companyname}
+    \lfoot{\tiny{sss/FEB2018}}
+
+\usepackage{indentfirst} %indents the first line of paragaphs; default begins at second para
+\usepackage{hyperref} %allows for internal and external hyperlinks
+	\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+  	unicode=false,          % non-Latin characters in Acrobat bookmarks
+  	pdftoolbar=true,        % show Acrobat toolbar?
+  	pdfmenubar=true,        % show Acrobat menu?
+  	pdffitwindow=false,     % window fit to page when opened
+  	pdfstartview={FitH},    % fits the width of the page to the window
+  	pdftitle={\companyname --- \contracttitle},    % really impress peeps with this one
+  	pdfauthor={\preparer},     % person who created this agreement
+  	pdfsubject={\contracttitle},   % subject of the document
+  	pdfcreator={swaevior},   % creator of the document
+  	pdfproducer={swaevior}, % producer of the document; please retain 'swaevior'
+  	pdfkeywords={}, % list of keywords
+  	pdfnewwindow=true,      % links in new window
+  	colorlinks=true,        % false: boxed links; true: colored links
+  	linkcolor=Gray,         % color of internal links
+  	citecolor=Gray,        % color of links to bibliography
+  	filecolor=magenta,      % color of file links
+  	urlcolor=Gray           % color of external links
+}
+
+\begin{document}
+\maketitle
+\preamble
+\recitals
+\confidentialinformation
+\ownershipofCI
+\returnofcompanymaterials
+\securityobligations
+\allowabledisclosure
+\obligationtodisclose
+\notificationofbreach
+\ciindemnification
+\termofnondisclosure
+\reliefCI
+\norelationship
+\governinglaw
+\consenttoarbitration
+\severability
+\entireagreement
+\waivers
+\noobligation
+\twopartysignaturepage
+\end{document}
