@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 03:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 APR 2018 05:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -188,30 +188,30 @@ nts}{3}}
 
 ]
 
-./plain-lang-lib.tex:391: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:397: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.391 }
+l.397 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:391: Missing number, treated as zero.
+./plain-lang-lib.tex:397: Missing number, treated as zero.
 <to be read again> 
                    g
-l.391 }
+l.397 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:391: Missing control sequence inserted.
+./plain-lang-lib.tex:397: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.391 }
+l.397 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -219,38 +219,38 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:391: You already have nine parameters.
+./plain-lang-lib.tex:397: You already have nine parameters.
 \reserved@a ... \def \expandafter r\reserved@b #10
                                                   g{
-l.391 }
+l.397 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:391: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:397: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.391 }
+l.397 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:399: Missing number, treated as zero.
+./plain-lang-lib.tex:405: Missing number, treated as zero.
 <to be read again> 
                    a
-l.399 }
+l.405 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:399: Missing control sequence inserted.
+./plain-lang-lib.tex:405: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.399 }
+l.405 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -258,20 +258,20 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:399: You already have nine parameters.
+./plain-lang-lib.tex:405: You already have nine parameters.
 \reserved@a ... \def \expandafter c\reserved@b #10
                                                   a{
-l.399 }
+l.405 }
        
 I'm going to ignore the # sign you just used.
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-./plain-lang-lib.tex:399: Undefined control sequence.
+./plain-lang-lib.tex:405: Undefined control sequence.
 <argument> ...nd. The total price of \projectcost 
                                                   , outlined on \ref of this...
-l.399 }
+l.405 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -280,16 +280,16 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `o' on page 4 undefined on input line 399.
+LaTeX Warning: Reference `o' on page 4 undefined on input line 405.
 
 
-./plain-lang-lib.tex:399: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:405: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.399 }
+l.405 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -298,36 +298,36 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-LaTeX Warning: Reference `o' on page 4 undefined on input line 399.
+LaTeX Warning: Reference `o' on page 4 undefined on input line 405.
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-./plain-lang-lib.tex:489: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:495: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.489 }
+l.495 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:489: Missing number, treated as zero.
+./plain-lang-lib.tex:495: Missing number, treated as zero.
 <to be read again> 
                    n
-l.489 }
+l.495 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:489: Missing control sequence inserted.
+./plain-lang-lib.tex:495: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.489 }
+l.495 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -335,21 +335,21 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:489: You already have nine parameters.
+./plain-lang-lib.tex:495: You already have nine parameters.
 \reserved@a ... \def \expandafter c\reserved@b #10
                                                   n{
-l.489 }
+l.495 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:489: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:495: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.489 }
+l.495 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -359,30 +359,30 @@ If that doesn't work, type  X <return>  to quit.
 \@writefile{toc}{\contentsline {section}{\numberline {4}Contact}{4}}
 ]
 
-./plain-lang-lib.tex:497: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:503: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.497 }
+l.503 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./plain-lang-lib.tex:497: Missing number, treated as zero.
+./plain-lang-lib.tex:503: Missing number, treated as zero.
 <to be read again> 
                    r
-l.497 }
+l.503 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./plain-lang-lib.tex:497: Missing control sequence inserted.
+./plain-lang-lib.tex:503: Missing control sequence inserted.
 <inserted text> 
                 \inaccessible 
-l.497 }
+l.503 }
        
 Please don't say `\def cs{...}', say `\def\cs{...}'.
 I've inserted an inaccessible control sequence so that your
@@ -390,21 +390,21 @@ definition will be completed without mixing me up too badly.
 You can recover graciously from this error, if you're
 careful; see exercise 27.2 in The TeXbook.
 
-./plain-lang-lib.tex:497: You already have nine parameters.
+./plain-lang-lib.tex:503: You already have nine parameters.
 \reserved@a ... \def \expandafter t\reserved@b #10
                                                   r{
-l.497 }
+l.503 }
        
 I'm going to ignore the # sign you just used.
 
 
-./plain-lang-lib.tex:497: LaTeX Error: Missing \begin{document}.
+./plain-lang-lib.tex:503: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.497 }
+l.503 }
        
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -875,7 +875,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
 Here is how much of TeX's memory you used:
  6385 strings out of 492995
  94019 string characters out of 6132704
- 224089 words of memory out of 5000000
+ 224311 words of memory out of 5000000
  9904 multiletter control sequences out of 15000+600000
  7574 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

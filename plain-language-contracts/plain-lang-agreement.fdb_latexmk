@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1523690921 "plain-lang-agreement.tex" "plain-lang-agreement.pdf" "plain-lang-agreement" 1523690921
+["pdflatex"] 1523696908 "plain-lang-agreement.tex" "plain-lang-agreement.pdf" "plain-lang-agreement" 1523696908
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -49,10 +49,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "plain-lang-agreement.aux" 1523686753 911 568442ae549e6352517ba2a6f4a5d1f6 ""
-  "plain-lang-agreement.out" 1523686753 94 bedf718a49c4ec52f53b2bba306d6688 ""
+  "plain-lang-agreement.aux" 1523691502 911 c3146af3fead2533fa8352a8d8731eee ""
+  "plain-lang-agreement.out" 1523691502 94 bedf718a49c4ec52f53b2bba306d6688 ""
   "plain-lang-agreement.tex" 1523682171 9807 44285db656c6fa6240fc12ddd61c2544 ""
-  "plain-lang-lib.tex" 1523690921 44878 ba1ac008a06f6e1dcc54e0f1c3ae97aa ""
+  "plain-lang-lib.tex" 1523696908 46613 6861fc47911793fc9cd44b53e2f44c3d ""
   "services.tex" 1523682228 11293 a3257c35aff5629b3583f6bed27258c6 ""
   (generated)
   "plain-lang-agreement.log"
